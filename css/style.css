@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=P#fffoppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#0073ff;
-    --dark-color:#1e00ff;
+    --primary-color:#0073ff;
+    --secondary-color:#1e00ff;
     --black:#444;
     --light-color:#666;
     --border:.1rem solid rgba(27, 27, 27, 0.1);
     --border-hover:.1rem solid var(--black);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
+
+
+
+
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -75,14 +79,14 @@ section{
     padding:.9rem 3rem;
     border-radius: .5rem;
     color:#fff;
-    background:var(--green);
+    background:var(--primary-color);
     font-size: 1.7rem;
     cursor: pointer;
     font-weight: 500;
 }
 
 .btn:hover{
-    background:var(--dark-color);
+    background:var(--secondary-color);
 }
 
 .header .header-1{
@@ -100,7 +104,7 @@ section{
 }
 
 .header .header-1 .logo i{
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 .header .header-1 .search-form{
@@ -131,7 +135,7 @@ section{
 }
 
 .header .header-1 .search-form label:hover{
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 .header .header-1 .icons div,
@@ -144,7 +148,7 @@ section{
 
 .header .header-1 .icons div:hover,
 .header .header-1 .icons a:hover{
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 #search-btn{
@@ -152,7 +156,7 @@ section{
 }
 
 .header .header-2{
-    background:var(--green);
+    background:var(--primary-color);
 }
 
 .header .header-2 .navbar{
@@ -167,7 +171,7 @@ section{
 }
 
 .header .header-2 .navbar a:hover{
-    background:var(--dark-color);
+    background:var(--secondary-color);
 }
 
 .header .header-2.active{
@@ -179,7 +183,7 @@ section{
 
 .bottom-navbar{
     text-align: center;
-    background:var(--green);
+    background:var(--primary-color);
     position: fixed;
     bottom:0; left:0; right:0;
     z-index: 1000;
@@ -193,7 +197,7 @@ section{
 }
 
 .bottom-navbar a:hover{
-    background:var(--dark-color);
+    background:var(--secondary-color);
 }
 
 .login-form-container{
@@ -272,7 +276,7 @@ section{
 }
 
 .login-form-container form p a{
-    color:var(--green);
+    color:var(--primary-color);
     text-decoration: underline;
 }
 
@@ -347,7 +351,7 @@ section{
 
 .icons-container .icons i{
     font-size: 3.5rem;
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 .icons-container .icons h3{
@@ -406,7 +410,7 @@ section{
 }
 
 .featured .featured-slider .box .icons a:hover{
-    background:var(--green);
+    background:var(--primary-color);
     color:#fff;
 }
 
@@ -519,7 +523,7 @@ section{
 
 .arrivals .arrivals-slider .box .content .stars i{
     font-size: 1.5rem;
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 .deal{
@@ -543,7 +547,7 @@ section{
 }
 
 .deal .content h3{
-    color:var(--green);
+    color:var(--primary-color);
     font-size: 2.5rem;
     padding-bottom: .5rem;
 }
@@ -597,7 +601,7 @@ section{
 
 .reviews .reviews-slider .box .stars i{
     font-size: 1.7rem;
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 .blogs .blogs-slider .box{
@@ -661,7 +665,7 @@ section{
 }
 
 .footer .box-container .box a i{
-    color:var(--green);
+    color:var(--primary-color);
     padding-right: .5rem;
 }
 
@@ -684,7 +688,7 @@ section{
     line-height: 5rem;
     font-size: 2rem;
     color:#fff;
-    background:var(--green);
+    background:var(--primary-color);
     margin:0 .3rem;
     border-radius: 50%; 
 }
@@ -704,7 +708,7 @@ section{
 }
 
 .footer .credit span{
-    color:var(--green);
+    color:var(--primary-color);
 }
 
 .loader-container{
